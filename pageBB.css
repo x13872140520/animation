@@ -1,0 +1,25 @@
+
+.girl_state{
+    background:url(images/b/girl.png);
+    background-size:2100% 100%;
+    width: 2rem;
+    height: 3rem;
+    position: absolute;
+    top: 4.6rem;
+    left: 1.5rem;
+
+}
+
+.girl_walk{
+    left: 1rem;
+    -webkit-animation:girlwalk 900ms steps(4,start) infinite;
+}
+@-webkit-keyframes girlwalk  {
+    0% {
+        background-position: -500% 100%;
+    }
+    100% {
+        background-position: -900% 100%;
+    }
+}
+
